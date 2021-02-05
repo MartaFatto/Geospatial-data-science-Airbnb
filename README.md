@@ -8,7 +8,7 @@
 
 
 ## Requirements
-The Code is written in Python 3.7.6 and in R 4.0.3.
+The Code is written in Python 3.8.5 and in R 4.0.3.
 Python libraries:
 * pandas==1.1.3
 * geopandas==0.8.1
