@@ -1,11 +1,19 @@
 # Geospatial data science – Antwerp Airbnb analysis
 
 ## Overview
-
+This is a project I carried out for the exam of "Geospatial analysis and representation for data science", which is part of my Master programme in Data Science. 
+The work consists of geospatial analyses on Airbnb data about a chosen city (Antwerp in Belgium, in my case). To be more specific, the project offers:
+* Analysis and visual representation of neighbourhoods population data
+* Identification of the top 5 neighbourhoods for Airbnb price and number
+* Tourist activities by neighbourhood 
+* Retrieval of the 3 closest Airbnbs with respect to one of the most popular museums of the city (street network analysis)
+* Services around the Airbnbs identified in the previous point
+* Analysis of the spatial autocorrelation of Airbnbs' prices
+* Visualization of the results with static and web maps
 
 
 ## Data
-
+The data used during the analysis comes from different sources. Data about the neighbourhoods of Antwerp, its population density and its museums are geojson files retrieved from the (city data portal)[https://portaal-stadantwerpen.opendata.arcgis.com/]. Additional data about the population come from an .xlsx file downloaded from the database of the city2. “Inside Airbnb”3 offers data about all the Airbnb of Antwerp and, in particular, I used the listings.csv file. From export.hotosm.org I created and extracted the .pbf bounding box of Antwerp4 in order to retrieve data about the tourist activities and other services of the city from Openstreetmap. Finally, for the analysis of the spatial autocorrelation of price I created a .shp file with data about the neighbourhoods of the city and its Airbnb price coming from the previous analyses.
 
 ## Requirements
 The Code is written in Python 3.8.5 and in R 4.0.3.
