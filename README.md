@@ -3,8 +3,9 @@
 
 ## Overview
 
-This is a project I carried out for the exam of "Geospatial analysis and representation for data science", which is part of my Master programme in Data Science. 
-The work consists of geospatial analyses on Airbnb data about a chosen city (Antwerp in Belgium, in my case). To be more specific, the project offers:
+<div align="justify">This is a project I carried out for the exam of "Geospatial analysis and representation for data science", which is part of my Master programme in Data Science. 
+The work consists of geospatial analyses on Airbnb data about a chosen city (Antwerp in Belgium, in my case). To be more specific, the project offers:</div>
+
 * Analysis and visual representation of neighbourhoods population data
 * Identification of the top 5 neighbourhoods for Airbnb price and number
 * Tourist activities by neighbourhood 
